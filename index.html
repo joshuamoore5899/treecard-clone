@@ -10,14 +10,14 @@
     <header>
         <nav>
             <div class="nav-column">
-                <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/62fbf4327b17746206b87f63_white%20logo.svg" />
+                <img class="nav-logo" src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/62fbf4327b17746206b87f63_white%20logo.svg" />
             </div>
             <div class="nav-column">
                 <div class="nav-sub-column">
                     <ul>
-                        <li><a href="#">Ways to plant</a></li>
-                        <li><a href="#">Who we are</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a class="menu-item" href="#">Ways to plant</a></li>
+                        <li><a class="menu-item" href="#">Who we are</a></li>
+                        <li><a class="menu-item" href="#">Blog</a></li>
                     </ul>
                 </div>
                 <div class="nav-sub-column">
@@ -36,10 +36,10 @@
                     <div>Powered by <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63bdc646a897571909169f06_Logo_Ecosia_2022.svg" /></div>
                 </div>
                 <form class="hero-section-form-line">
-                    <input type="text" placeholder="Enter your email address">
+                    <input class="hero-form-input" type="text" placeholder="Enter your email address">
                     <input class="form-btn" type="submit" value="Get card now">
                 </form>
-                <p>The Treecard® Mastercard® Debit Card is issued by Sutton Bank, Member FDIC, pursuant to a license from Mastercard International Incorporated. Mastercard and the circles design are registered trademarks of Mastercard International Incorporated.</p>
+                <p class="disclaimer" style="color:#ccc">The Treecard® Mastercard® Debit Card is issued by Sutton Bank, Member FDIC, pursuant to a license from Mastercard International Incorporated. Mastercard and the circles design are registered trademarks of Mastercard International Incorporated.</p>
                 <div class="hero-section-logo-section">
                     <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/62fa1e58a3e05d5ea27b7a89_the%20sunday%20times%20logo.svg" class="hero-section-logo-section-item" />
                     <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/62fa1e58e0ceed4258a565f8_Union.svg" class="hero-section-logo-section-item" />
@@ -53,12 +53,32 @@
                 <div class="main-info-section-column">
                     <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63bf21796d082a82e4d6e304_walk-image.jpg" />
                 </div>
-                <div class="main-info-section-column"></div>
+                <div class="main-info-section-column text-column text-column-right">
+                    <div class="text-column-action">WALK</div>
+                    <h3 class="text-column-title">Plant trees with your steps</h3>
+                    <p class="text-column-paragraph">Reduce your carbon consumption by not driving, get fitter by taking the stairs instead of the elevator. Maximise your impact by walking and we’ll plant trees on your behalf. You’ll also earn earth friendly rewards for your effort.</p>
+                    <button class="text-column-cta">Learn more</button>
+                </div>
             </div>
         </div>
         <div class="main-info-section">
             <div class="main-info-section-inner-container">
-                <div class="main-info-section-column"></div>
+                <div class="main-info-section-column text-column text-column-left">
+                    <div class="text-column-action">SPEND</div>
+                    <h3 class="text-column-title">Plant trees as you spend with a real wooden card</h3>
+                    <p class="text-column-paragraph">Planet-friendly recyclable alternative to your plastic card. We make our debit cards from sustainably sourced wood and recycled plastic bottles.</p>
+                    <div class="text-column-cta-row">
+                        <button class="text-column-cta">Learn more</button>
+                        <div>
+                            <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63bf2a06d71f53b6754bec91_ApplePay-icon.svg" />
+                            <span></span>
+                            <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63bf2ab5ac860fb03bf50e72_GooglePay-icon.svg" />
+                            <span></span>
+                            <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63bf2ac8fd40e60d3567e046_SamsungPay-icon.svg" />
+                        </div>
+                    </div>
+                    <p class="disclaimer">The Treecard® Mastercard® Debit Card is issued by Sutton Bank, Member FDIC, pursuant to a license from Mastercard International Incorporated. Mastercard and the circles design are registered trademarks of Mastercard International Incorporated.</p>    
+                </div>
                 <div class="main-info-section-column">
                     <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63bf28148dfe7e1e7a3035db_spend-image.jpg" />
                 </div>
@@ -69,17 +89,141 @@
                 <div class="main-info-section-column">
                     <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63c9832f85306b36fd48128a_Deposit-image.jpg" />
                 </div>
-                <div class="main-info-section-column"></div>
-            </div>
-        </div>
-        <div class="main-info-section">
-            <div class="main-info-section-inner-container">
-                <div class="main-info-section-column"></div>
-                <div class="main-info-section-column">
-                    <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63c94120f818bd61ca5215e5_section-rewards-p-800.png" />
+                <div class="main-info-section-column text-column text-column-right">
+                    <div class="text-column-action">DEPOSIT</div>
+                    <h3 class="text-column-title">Earn up to 3% on your deposits</h3>
+                    <p class="text-column-paragraph">Once you spend $1,000, you’ll unlock 3% for that month. Choose whether to donate the reward to a climate cause, or keep it for a rainy day.</p>
+                    <button class="text-column-cta">Learn more</button>
                 </div>
             </div>
         </div>
+        <div class="main-info-section" style="border-top: 1px solid #ebebeb;padding-top:70px;background-color: #fafafa;position:relative;">
+            <div class="main-info-section-inner-container">
+                <div class="main-info-section-column text-column text-column-left">
+                    <h3 class="text-column-title">Earn planet-friendly rewards</h3>
+                    <p class="text-column-paragraph">Earn a range of environment-first rewards. From sustainable travel experiences to conscious clothing, we’ve got you covered.</p>
+                    <button class="text-column-cta">Sign up</button>
+                </div>
+                <div class="main-info-section-column">
+                </div>
+            </div>
+            <img style="max-width:50%;position:absolute;bottom:0;right:0;" src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63c94120f818bd61ca5215e5_section-rewards-p-800.png" />
+        </div>
+        <div class="info-gallery-section">
+            <div class="info-gallery-inner-container">
+                <div class="info-gallery-section-column">
+                    <div class="sticky-section">
+                        <h3 class="text-column-title">We plant trees with <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63ca3b18be845a1817281ecb_Logo_Ecosia_Green.svg" /> </h3>
+                        <p class="text-column-paragraph">Earn a range of environment-first rewards. From sustainable travel experiences to conscious clothing, we’ve got you covered.</p>
+                        <button class="text-column-cta">Sign up</button>
+                    </div>
+                </div>
+                <div class="info-gallery-section-column">
+                    <img class="info-gallery-img" src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63ca8d2773e685dcead72c7b_Photo-grid1-p-800.jpg" />
+                    <div class="info-gallery-double-image">
+                        <div class="one-image">
+                            <img class="info-gallery-img" src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63bf4ae38d463f65c6b69461_Photo-grid2-p-500.jpg" />
+                        </div>
+                        <div class="two-image">
+                            <img class="info-gallery-img" src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63bf5096eec8b7efc8204205_Photo-grid3-p-500.jpg" />
+                            <img class="info-gallery-img" src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63bf510141a5433fc39e4b43_Photo-grid4-p-500.jpg" />
+                        </div>
+                    </div>
+                    <img class="info-gallery-img" src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63bf4cd0c3bc697fc68343ff_Photo-grid4-p-800.jpg" />
+                    <div class="info-gallery-double-image">
+                        <div class="two-image">
+                            <img class="info-gallery-img" src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63c90ccb09d76d7652331704_Photo-grid6-p-500.jpg" />
+                            <img class="info-gallery-img" src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63bf512f84c6a110469fd7ee_Photo-grid7-p-500.jpg" />
+                        </div>
+                        <div class="one-image">
+                            <img class="info-gallery-img" src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63bf4de3639e79f2ddbf38cc_Photo-grid6-p-500.jpg" />
+                        </div>
+                    </div>
+                    <img class="info-gallery-img" src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63bf4e1634c71acadadd31e3_Photo-grid7-p-800.jpg" />
+                    <p class="disclaimer">The Treecard® Mastercard® Debit Card is issued by Sutton Bank, Member FDIC, pursuant to a license from Mastercard International Incorporated. Mastercard and the circles design are registered trademarks of Mastercard International Incorporated.</p>
+                </div>
+            </div>
+        </div>
+        <div class="reviews-section">
+            <h3>Customer reviews</h3>
+            <div class="review-card-section">
+                <div class="review-card">
+                    <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63015948c3979f549d085279_review%20stars.svg" />
+                    <p>It’s nice to know just by doing your regular grocery shopping... it all helps to make the plant a little greener.</p>
+                    <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/630159485f6afb7e26f79e2b_app%20store%20review.svg" />
+                </div>
+                <div class="review-card">
+                    <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63015948c3979f549d085279_review%20stars.svg" />
+                    <p>It’s nice to know just by doing your regular grocery shopping... it all helps to make the plant a little greener.</p>
+                    <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/630159485f6afb7e26f79e2b_app%20store%20review.svg" />
+                </div>
+                <div class="review-card">
+                    <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63015948c3979f549d085279_review%20stars.svg" />
+                    <p>It’s nice to know just by doing your regular grocery shopping... it all helps to make the plant a little greener.</p>
+                    <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/630159485f6afb7e26f79e2b_app%20store%20review.svg" />
+                </div>
+            </div>
+            <span class="reviews-section-150">150 million trees planted by our partner <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/62fbc4e384ed9b40c76c62b6_ecosia%20svg.svg" /></span>
+            <span class="reviews-section-start">Start planting today</span>
+            <span class="reviews-section-sign">Sign up for free in 90 seconds.</span>
+            <form class="hero-section-form-line">
+                <input class="sign-up-input" type="text" placeholder="Enter your email address">
+                <input class="sign-up-btn" type="submit" value="Sign up">
+            </form>
+        </div>
     </main>
+    <footer>
+        <div class="footer-column">
+            <div class="footer-change-text">
+                <span>Small change.</span><span> <strong>Big change.</strong></span>
+            </div>
+            <div class="footer-download-img">
+                <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/62fc1409906316847c975c20_app%20store.svg" />
+                <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/62fc1409bddeddf4fe1957b5_google%20play%20store.svg" />
+            </div>
+            <div class="footer-logo">
+                <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/62fbf4327b17746206b87f63_white%20logo.svg" />
+            </div>
+            <div class="footer-column-split">
+                <div class="footer-column-split-column">
+                    <button class="footer-sign-up">Sign up</button>
+                    <div class="footer-social-icons">
+                        <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/62fc9a11fd62c24bc91e14f1_Twitter.svg" />
+                        <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/62fc9a11fa859b9631fb0b57_linkedin.svg" />
+                        <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/62fc9a11544b97d8af7d6448_facebook.svg" />
+                        <img src="https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/62fc9a11430801e2b2d0f2bc_instagram.svg" />
+                    </div>
+                </div>
+                <div class="footer-column-split-column">
+                    <div style="display: flex;justify-content: space-between;">
+                        <div class="footer-quick-links-column">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Benefits</a></li>
+                                <li><a href="#">Who we are</a></li>
+                                <li><a href="#">Get the app</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-quick-links-column">
+                            <ul>
+                                <li><a href="#">Privacy policy</a></li>
+                                <li><a href="#">Ecosia</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Do not seel of share my personal information</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-column copyright-column">
+            <span>Copyright © 2021</span>
+            <p>THIS WEBSITE IS OPERATED BY TREECARD INC. TREECARD RESERVES THE RIGHT TO RESTRICT OR REVOKE ANY AND ALL OFFERS AT ANY TIME. THE TREECARD® MASTERCARD® DEBIT CARD IS ISSUTHIS WEBSITE IS OPERATED BY TREECARD INC. TREECARD RESERVES THE RIGHT TO RESTRICT OR REVOKE ANY AND ALL OFFERS AT ANY TIME. THE TREECARD® MASTERCARD® DEBIT CARD IS ISSUED BY SUTTON BANK, MEMBER FDIC, PURSUANT TO A LICENSE FROM MASTERCARD INTERNATIONAL INCORPORATED.</p>
+            <p>1.  DATA PULLED FROM CHASE BANK ACCOUNT DETAILS AS OF SEPT. 5TH, 2022. HTTPS://WWW.CHASE.COM/PERSONAL/CHECKING/TOTAL-CHECKING</p>
+            <p>2. DATA PULLED FROM WELLS FARGO BANK ACCOUNT DETAILS AS OF SEPT. 5TH, 2022:HTTPS://WWW.WELLSFARGO.COM/CHECKING/EVERYDAY</p>
+        </div>
+    </footer>
+
+    <script src="src/index.js"></script>
 </body>
 </html>
