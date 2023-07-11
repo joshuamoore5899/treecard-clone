@@ -24,6 +24,7 @@ header {
 
 nav {
     width: 75%;
+    max-width: 1050px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -99,14 +100,17 @@ li a.scrolled {
     position: absolute;
     bottom: 0;
     right: 0;
+    width: 50%;
 }
 
 .hero-section-inner-wrapper {
     width: 75%;
+    max-width: 1050px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
+    z-index: 5;
 }
 
 .hero-section-inner-wrapper p {
@@ -207,6 +211,7 @@ h1 {
 }
 .main-info-section-inner-container {
     width: 95%;
+    max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -223,7 +228,7 @@ h1 {
 
 .main-info-section-column img {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .text-column {
@@ -236,11 +241,11 @@ h1 {
 }
 
 .text-column-left {
-    padding: 100px 75px 100px 125px;
+    padding: 0 50px 0 12%;
 }
 
 .text-column-right {
-    padding: 100px 125px 100px 75px;
+    padding: 0 12% 0 50px;
 }
 
 .text-column-action {
@@ -317,6 +322,7 @@ h1 {
 
 .info-gallery-inner-container {
     width: 75%;
+    max-width: 1050px;
     display: flex;
     justify-content: space-between;
 }
@@ -359,7 +365,6 @@ h1 {
 .sticky-section {
     position: sticky;
     top: 150px;
-    padding-right: 75px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -368,7 +373,7 @@ h1 {
 
 .reviews-section {
     background-image: url(https://assets-global.website-files.com/5f16d530791d4326e79cd1b0/63016616b96f8c1e161a469b_nh%20footer%20bottom.jpg);
-    padding: 100px 0 450px 0;
+    padding: 100px 0 650px 0;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -401,17 +406,20 @@ h1 {
 .review-card-section {
     display: flex;
     width: 75%;
+    max-width: 1050px;
     justify-content: space-between;
     gap: 25px;
 }
 
 .review-card {
     background-color: #fff;
-    padding: 25px;
+    padding: 35px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-between;
+    width: 33%;
     gap: 25px;
 }
 
@@ -472,8 +480,14 @@ h1 {
 
 footer {
     background-color: #0c5153;
-    min-height: 600px;
-    padding: 100px;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.footer-inner-container {
+    width: 80%;
+    max-width: 1250px;
     display: flex;
 }
 
